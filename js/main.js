@@ -67,6 +67,15 @@
 				$('body').addClass('offcanvas');
 			}
 		});
+
+		$(window).resize(function(){
+			if ($(window).width() > 768) {
+				if ($('body').hasClass('offcanvas')) {
+					$('body').removeClass('offcanvas');
+					$('.js-colorlib-nav-toggle').removeClass('active');
+				}
+			}
+		});
 	};
 
 	// Close mobile menu on outside click
