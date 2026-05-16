@@ -1744,12 +1744,26 @@ li,
   text-align: left;
   min-height: auto;
 }
-
 .contact-card i {
   color: var(--accent);
   font-size: 24px;
-  margin-bottom: 10px;
+}
+
+.github-link {
   display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
+
+.github-link i {
+  margin-right: 5px;
 }
 
 /* Mobile nav and responsiveness */
