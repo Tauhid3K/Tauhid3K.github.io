@@ -1612,6 +1612,11 @@ li,
   margin-bottom: 30px;
 }
 
+#colorlib-hero .flexslider .slider-text > .slider-text-inner .desc p {
+  color: #ffffff !important;
+  opacity: 0.95;
+}
+
 #colorlib-hero .flex-control-nav li a {
   background: rgba(255, 255, 255, 0.4) !important;
   border: 1px solid rgba(255, 255, 255, 0.2);
